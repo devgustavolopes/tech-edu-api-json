@@ -1,1 +1,8 @@
-
+{
+  "scripts": {
+    "start": "json-server db.json"
+  },
+  "dependencies": {
+    "json-server": "..."
+  }
+}

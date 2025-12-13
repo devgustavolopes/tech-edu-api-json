@@ -6,7 +6,7 @@
       "email": "dev@techedu.com",
       "password": "senha_segura" 
     }
-    // Adicione mais usuários aqui
+
   ],
   "plans": [
     {
@@ -14,6 +14,6 @@
       "name": "Plano Principal",
       "description": "Descrição do plano principal"
     }
-    // Adicione mais planos aqui
+    
   ]
 }

@@ -2,18 +2,14 @@
   "users": [
     { 
       "id": 1, 
-      "username": "dev", 
-      "email": "dev@techedu.com",
-      "password": "senha_segura" 
-    }
-
+      "username": "dev" 
+    } 
+    
   ],
   "plans": [
     {
       "id": 101,
-      "name": "Plano Principal",
-      "description": "Descrição do plano principal"
-    }
-    
+      "name": "Plano Principal"
+    } 
   ]
-}
+} 

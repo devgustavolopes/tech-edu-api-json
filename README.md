@@ -1,1 +1,0 @@
-# tech-edu-api-json

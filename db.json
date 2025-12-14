@@ -1,0 +1,65 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Admin TechEdu",
+      "login": "admin",
+      "senha": "123",
+      "email": "admin@techedu.com",
+      "tipoUsuario": "admin",
+      "profissao": "Desenvolvedor",
+      "localizacao": "Minas Gerais, Brasil",
+      "biografia": "Administrador e criador da plataforma TechEdu.",
+      "interesses": ["Hardware", "Software", "DevOps"],
+      "fotoUrl": ""
+    }
+  ],
+  "planos": [
+    {
+      "id": 1,
+      "userId": 1,
+      "category": "hardware",
+      "title": "Montando Meu Primeiro PC",
+      "level": "Iniciante",
+      "description": "Um guia completo para entender e montar seu próprio computador.",
+      "topics": [
+        {
+          "value": "compatibilidade",
+          "text": "Compatibilidade de Componentes",
+          "completedTasks": [0, 1] 
+        }
+      ],
+      "createdAt": "2025-12-01T10:00:00Z"
+    }
+  ],
+  "contatos": [
+    {
+      "id": 1,
+      "fullname": "Maria da Silva",
+      "email": "maria@email.com",
+      "subject": "Dúvida sobre Login",
+      "message": "Não consigo acessar minha conta...",
+      "linkInput": "",
+      "respondido": false,
+      "dataEnvio": "2025-12-01T10:00:00Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "user": "@admin",
+      "avatar": "A",
+      "timestamp": "1h atrás",
+      "text": "Qual a maior dificuldade de vocês com a área de DevOps?",
+      "image": "",
+      "likes": 5,
+      "comments": [
+        {
+          "user": "@estudante1",
+          "text": "Compreender CI/CD."
+        }
+      ]
+    }
+  ]
+}
